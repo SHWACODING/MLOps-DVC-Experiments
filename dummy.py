@@ -19,14 +19,13 @@ new_row_loc = {
 }
 df.loc[len(df.index)] = new_row_loc
 
-# ## Adding new row to df for V3
-# new_row_loc2 = {
-#     'Name': 'GF2',
-#     'Age': 30,
-#     'City': 'City2'
-# }
-
-# df.loc[len(df.index)] = new_row_loc2
+## Adding new row to df for V3
+new_row_loc2 = {
+    'Name': 'GF2',
+    'Age': 25,
+    'City': 'City2'
+}
+df.loc[len(df.index)] = new_row_loc2
 
 
 
